@@ -10,12 +10,46 @@
   background-color: #253141;
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.side-main{
+.header-name a {
+  color: #fafafa;
+  font-size: 16px;
+}
+
+.create-room a {
+  color: deepskyblue;
+  border:1px solid lightblue;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.create-room {
+  font-size: 10px;
+}
+
+.side-mains{
   background-color: #2f3e51;
   height: calc(100% - 100px);
   padding: 0 20px;
+  overflow: scroll;
+}
+
+.side-main {
+  padding: 020px 0 40px;
+}
+
+.side-main a {
+  text-decoration: none;
+  color: white;
+}
+
+.side-chat-name{
+ color: white;
+ padding: 20px 20px 40px 20px;
 }
 
 .chat{
